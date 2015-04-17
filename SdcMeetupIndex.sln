@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdcMeetupIndex", "SdcMeetupIndex\SdcMeetupIndex.csproj", "{A5E0A34C-2E08-4349-AA39-7A569F821EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sdcMeetupWeb", "sdcMeetupWeb\sdcMeetupWeb.csproj", "{82BAF91E-1E0C-4BC5-A587-D5E87DE8D2B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EFF5346B-4D42-427B-95B7-AA5A692A9D82}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{393106B8-87A3-4F66-BB32-8A99811A267F}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{08D9D1DB-710F-4544-A358-4FC11C3E2ECA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\sdcMeetupWeb-WAWS-dev.json = PublishScripts\Configurations\sdcMeetupWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5E0A34C-2E08-4349-AA39-7A569F821EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E0A34C-2E08-4349-AA39-7A569F821EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E0A34C-2E08-4349-AA39-7A569F821EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E0A34C-2E08-4349-AA39-7A569F821EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BAF91E-1E0C-4BC5-A587-D5E87DE8D2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BAF91E-1E0C-4BC5-A587-D5E87DE8D2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BAF91E-1E0C-4BC5-A587-D5E87DE8D2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BAF91E-1E0C-4BC5-A587-D5E87DE8D2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08D9D1DB-710F-4544-A358-4FC11C3E2ECA} = {393106B8-87A3-4F66-BB32-8A99811A267F}
+	EndGlobalSection
+EndGlobal
